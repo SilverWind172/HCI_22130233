@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - My Web Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .cv-section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>About Me</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        
+        <!-- Dropdown for Labs -->
+        <div class="dropdown">
+            <button class="dropbtn">Labs</button>
+            <div class="dropdown-content">
+                <a href="lab1.html">Lab 1</a>
+                <a href="lab2.html">Lab 2</a>
+                <a href="lab3.html">Lab 3</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <h2>Curriculum Vitae</h2>
+
+        <div class="cv-section">
+            <h3>Personal Information</h3>
+            <p><strong>Name:</strong> Vo Tan Sang</p>
+            <p><strong>Email:</strong> 22130233@st.hcmuaf.edu.vn</p>
+            <p><strong>Phone:</strong> +786339867</p>
+        </div>
+
+        <div class="cv-section">
+            <h3>Education</h3>
+            <ul>
+                <li><strong>Bachelor's Degree in Computer Science</strong>, XYZ University (2019 - 2023)</li>
+            </ul>
+        </div>
+
+        <div class="cv-section">
+            <h3>Work Experience</h3>
+            <ul>
+                <li><strong>Web Developer</strong>, ABC Company (2023 - Present)</li>
+            </ul>
+        </div>
+
+        <div class="cv-section">
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, Vue.js</li>
+                <li>Node.js, Express</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>My Web Project © 2024</p>
+    </footer>
+
+</body>
+</html>
